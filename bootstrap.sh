@@ -112,7 +112,8 @@ debconf-set-selections <<< "postfix postfix/main_mailer_type string 'Internet Si
 sudo apt-get install postfix -y
 sudo service postfix reload
 
-
+echo -e "\n****************\nInstall Unzip";
+sudo apt-get install unzip
 
 
 
