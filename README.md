@@ -8,7 +8,7 @@
 
 3. Clone repo:
 
-        git clone https://github.com/kotsios5/vagrant.git
+        git clone https://github.com/open-classifieds/vagrant.git
     
         cd vagrant/
 
