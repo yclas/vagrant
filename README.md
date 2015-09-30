@@ -20,11 +20,19 @@
 
         vagrant ssh
 
-6. Once the machine it's running, load this on your browser:
+6. Run:
 
-        http://reoc.lo:4567/install-openclassifieds.php
+        vim /etc/hosts
 
-7. To destroy the virtual machine and remove all traces of the guest machine from your system, run: 
+    and add those lines at the beggining of the file:
+
+        192.168.50.4	reoc.lo
+
+7. Once the machine it's running, load this on your browser:
+
+        http://reoc.lo/install-openclassifieds.php
+
+8. To destroy the virtual machine and remove all traces of the guest machine from your system, run: 
 
         vagrant destroy
 
@@ -33,7 +41,10 @@ Vagrant fails to remove temp files, so run this after vagrant destroy the virtua
     sudo rm -f d20* vagrant20*
 
 
-During the Open-Classifieds installation process, for DB Configuration use _Database name_: **openclassifieds** ,_User name_: **root** and _Password_: **1234**
+During the Open-Classifieds installation process, for DB Configuration use:<br>
+_Database name_: **openclassifieds** <br>
+_User name_: **root**<br> 
+_Password_: **1234**
 
 
 
