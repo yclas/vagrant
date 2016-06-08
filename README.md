@@ -20,9 +20,9 @@
 
         vagrant ssh
 
-6. Run:
+6. Run: (if you have followed the step 5, type _exit_ before the following command)
 
-        vim /etc/hosts
+        sudo vim /etc/hosts
 
     and add those lines at the beggining of the file:
 
