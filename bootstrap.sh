@@ -34,8 +34,7 @@ sudo apt-get install php5-common php5-dev php5-cli php5-fpm -y > /dev/null
 # cd ../..
 # sudo cp -r openclassifieds2/* html/
 # sudo rm -rf html/index.html
-cd ../..
-cd var/www/html/
+cd /var/www/html/
 sudo wget https://raw.githubusercontent.com/open-classifieds/openclassifieds2/master/install-openclassifieds.php
 sudo rm -rf index.html
 
