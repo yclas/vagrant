@@ -16,21 +16,21 @@
 
         vagrant up
 
-5. To prove that it is running, you can SSH into the machine: (Optional)
-
-        vagrant ssh
-
-6. Run: (if you have followed the step 5, type _exit_ before the following command)
+5. Run:
 
         sudo vim /etc/hosts
 
     and add those lines at the beggining of the file:
 
-        192.168.50.4	reoc.lo
+        192.168.50.4    reoc.lo
+
+6. To prove that it is running, you can SSH into the machine: (Optional)
+
+        vagrant ssh
 
 7. Once the machine it's running, load this on your browser:
 
-        http://reoc.lo/install-openclassifieds.php
+        [http://reoc.lo/install-openclassifieds.php](http://reoc.lo/install-openclassifieds.php)
 
 8. To destroy the virtual machine and remove all traces of the guest machine from your system, run: 
 
