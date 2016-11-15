@@ -30,7 +30,7 @@
 
 7. Once the machine it's running, load this on your browser:
 
-        [http://reoc.lo/install-yclas.php](http://reoc.lo/install-yclas.php)
+        http://reoc.lo/install-yclas.php
 
 8. To destroy the virtual machine and remove all traces of the guest machine from your system, run: 
 
