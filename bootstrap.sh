@@ -49,7 +49,7 @@ sudo sed -i 's/short_open_tag = Off/short_open_tag = On/g' /etc/php/7.0/apache2/
 sudo service apache2 restart
 
 cd /var/www/html/
-sudo wget https://raw.githubusercontent.com/open-classifieds/openclassifieds2/master/install-openclassifieds.php
+sudo wget https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php
 sudo rm -rf index.html
 
 # Set www-data permissions
